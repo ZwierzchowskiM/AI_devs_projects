@@ -12,10 +12,10 @@ pip install -r requirements.txt
 2. Create a `.env` file in the same directory with your OpenAI API key and base URL:
 ```
 OPENAI_API_KEY=your_api_key_here
-BASE_URL=https://xyz.ag3nts.org/
+BASE_URL=your_base_url_here
 ```
 
-**Note**: Replace `your_api_key_here` with your actual OpenAI API key from https://platform.openai.com/api-keys
+**Note**: Replace `your_api_key_here` with your actual OpenAI API key from the OpenAI platform
 
 ## Usage
 
@@ -34,7 +34,7 @@ The script will:
 
 The script uses the following environment variables:
 - `OPENAI_API_KEY`: Your OpenAI API key for GPT-4 access
-- `BASE_URL`: The URL of the robot system (e.g., https://xyz.ag3nts.org/)
+- `BASE_URL`: The URL of the robot system
 
 And the following hardcoded credentials:
 - Username: tester
